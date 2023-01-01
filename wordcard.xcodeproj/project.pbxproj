@@ -1,0 +1,609 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9FECC2572962061300340DA2 /* wordcardApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FECC2562962061300340DA2 /* wordcardApp.swift */; };
+		9FECC2592962061300340DA2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FECC2582962061300340DA2 /* ContentView.swift */; };
+		9FECC25B2962061500340DA2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9FECC25A2962061500340DA2 /* Assets.xcassets */; };
+		9FECC25E2962061500340DA2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9FECC25D2962061500340DA2 /* Preview Assets.xcassets */; };
+		9FECC2602962061500340DA2 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FECC25F2962061500340DA2 /* Persistence.swift */; };
+		9FECC2632962061500340DA2 /* wordcard.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 9FECC2612962061500340DA2 /* wordcard.xcdatamodeld */; };
+		9FECC26D2962061500340DA2 /* wordcardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FECC26C2962061500340DA2 /* wordcardTests.swift */; };
+		9FECC2772962061500340DA2 /* wordcardUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FECC2762962061500340DA2 /* wordcardUITests.swift */; };
+		9FECC2792962061500340DA2 /* wordcardUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FECC2782962061500340DA2 /* wordcardUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9FECC2692962061500340DA2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9FECC24B2962061300340DA2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9FECC2522962061300340DA2;
+			remoteInfo = wordcard;
+		};
+		9FECC2732962061500340DA2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9FECC24B2962061300340DA2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9FECC2522962061300340DA2;
+			remoteInfo = wordcard;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9FECC2532962061300340DA2 /* wordcard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = wordcard.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9FECC2562962061300340DA2 /* wordcardApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = wordcardApp.swift; sourceTree = "<group>"; };
+		9FECC2582962061300340DA2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		9FECC25A2962061500340DA2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9FECC25D2962061500340DA2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		9FECC25F2962061500340DA2 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		9FECC2622962061500340DA2 /* wordcard.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = wordcard.xcdatamodel; sourceTree = "<group>"; };
+		9FECC2682962061500340DA2 /* wordcardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = wordcardTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9FECC26C2962061500340DA2 /* wordcardTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = wordcardTests.swift; sourceTree = "<group>"; };
+		9FECC2722962061500340DA2 /* wordcardUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = wordcardUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9FECC2762962061500340DA2 /* wordcardUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = wordcardUITests.swift; sourceTree = "<group>"; };
+		9FECC2782962061500340DA2 /* wordcardUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = wordcardUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9FECC2502962061300340DA2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9FECC2652962061500340DA2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9FECC26F2962061500340DA2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9FECC24A2962061300340DA2 = {
+			isa = PBXGroup;
+			children = (
+				9FECC2552962061300340DA2 /* wordcard */,
+				9FECC26B2962061500340DA2 /* wordcardTests */,
+				9FECC2752962061500340DA2 /* wordcardUITests */,
+				9FECC2542962061300340DA2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9FECC2542962061300340DA2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9FECC2532962061300340DA2 /* wordcard.app */,
+				9FECC2682962061500340DA2 /* wordcardTests.xctest */,
+				9FECC2722962061500340DA2 /* wordcardUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9FECC2552962061300340DA2 /* wordcard */ = {
+			isa = PBXGroup;
+			children = (
+				9FECC2562962061300340DA2 /* wordcardApp.swift */,
+				9FECC2582962061300340DA2 /* ContentView.swift */,
+				9FECC25A2962061500340DA2 /* Assets.xcassets */,
+				9FECC25F2962061500340DA2 /* Persistence.swift */,
+				9FECC2612962061500340DA2 /* wordcard.xcdatamodeld */,
+				9FECC25C2962061500340DA2 /* Preview Content */,
+			);
+			path = wordcard;
+			sourceTree = "<group>";
+		};
+		9FECC25C2962061500340DA2 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				9FECC25D2962061500340DA2 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		9FECC26B2962061500340DA2 /* wordcardTests */ = {
+			isa = PBXGroup;
+			children = (
+				9FECC26C2962061500340DA2 /* wordcardTests.swift */,
+			);
+			path = wordcardTests;
+			sourceTree = "<group>";
+		};
+		9FECC2752962061500340DA2 /* wordcardUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9FECC2762962061500340DA2 /* wordcardUITests.swift */,
+				9FECC2782962061500340DA2 /* wordcardUITestsLaunchTests.swift */,
+			);
+			path = wordcardUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9FECC2522962061300340DA2 /* wordcard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9FECC27C2962061500340DA2 /* Build configuration list for PBXNativeTarget "wordcard" */;
+			buildPhases = (
+				9FECC24F2962061300340DA2 /* Sources */,
+				9FECC2502962061300340DA2 /* Frameworks */,
+				9FECC2512962061300340DA2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = wordcard;
+			productName = wordcard;
+			productReference = 9FECC2532962061300340DA2 /* wordcard.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9FECC2672962061500340DA2 /* wordcardTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9FECC27F2962061500340DA2 /* Build configuration list for PBXNativeTarget "wordcardTests" */;
+			buildPhases = (
+				9FECC2642962061500340DA2 /* Sources */,
+				9FECC2652962061500340DA2 /* Frameworks */,
+				9FECC2662962061500340DA2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9FECC26A2962061500340DA2 /* PBXTargetDependency */,
+			);
+			name = wordcardTests;
+			productName = wordcardTests;
+			productReference = 9FECC2682962061500340DA2 /* wordcardTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9FECC2712962061500340DA2 /* wordcardUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9FECC2822962061500340DA2 /* Build configuration list for PBXNativeTarget "wordcardUITests" */;
+			buildPhases = (
+				9FECC26E2962061500340DA2 /* Sources */,
+				9FECC26F2962061500340DA2 /* Frameworks */,
+				9FECC2702962061500340DA2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9FECC2742962061500340DA2 /* PBXTargetDependency */,
+			);
+			name = wordcardUITests;
+			productName = wordcardUITests;
+			productReference = 9FECC2722962061500340DA2 /* wordcardUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9FECC24B2962061300340DA2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					9FECC2522962061300340DA2 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					9FECC2672962061500340DA2 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 9FECC2522962061300340DA2;
+					};
+					9FECC2712962061500340DA2 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 9FECC2522962061300340DA2;
+					};
+				};
+			};
+			buildConfigurationList = 9FECC24E2962061300340DA2 /* Build configuration list for PBXProject "wordcard" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9FECC24A2962061300340DA2;
+			productRefGroup = 9FECC2542962061300340DA2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9FECC2522962061300340DA2 /* wordcard */,
+				9FECC2672962061500340DA2 /* wordcardTests */,
+				9FECC2712962061500340DA2 /* wordcardUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9FECC2512962061300340DA2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9FECC25E2962061500340DA2 /* Preview Assets.xcassets in Resources */,
+				9FECC25B2962061500340DA2 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9FECC2662962061500340DA2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9FECC2702962061500340DA2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9FECC24F2962061300340DA2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9FECC2602962061500340DA2 /* Persistence.swift in Sources */,
+				9FECC2592962061300340DA2 /* ContentView.swift in Sources */,
+				9FECC2572962061300340DA2 /* wordcardApp.swift in Sources */,
+				9FECC2632962061500340DA2 /* wordcard.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9FECC2642962061500340DA2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9FECC26D2962061500340DA2 /* wordcardTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9FECC26E2962061500340DA2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9FECC2792962061500340DA2 /* wordcardUITestsLaunchTests.swift in Sources */,
+				9FECC2772962061500340DA2 /* wordcardUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9FECC26A2962061500340DA2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9FECC2522962061300340DA2 /* wordcard */;
+			targetProxy = 9FECC2692962061500340DA2 /* PBXContainerItemProxy */;
+		};
+		9FECC2742962061500340DA2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9FECC2522962061300340DA2 /* wordcard */;
+			targetProxy = 9FECC2732962061500340DA2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		9FECC27A2962061500340DA2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9FECC27B2962061500340DA2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9FECC27D2962061500340DA2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"wordcard/Preview Content\"";
+				DEVELOPMENT_TEAM = 8D7U583Z2W;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.wordcard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9FECC27E2962061500340DA2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"wordcard/Preview Content\"";
+				DEVELOPMENT_TEAM = 8D7U583Z2W;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.wordcard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		9FECC2802962061500340DA2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8D7U583Z2W;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.wordcardTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/wordcard.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/wordcard";
+			};
+			name = Debug;
+		};
+		9FECC2812962061500340DA2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8D7U583Z2W;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.wordcardTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/wordcard.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/wordcard";
+			};
+			name = Release;
+		};
+		9FECC2832962061500340DA2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8D7U583Z2W;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.wordcardUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = wordcard;
+			};
+			name = Debug;
+		};
+		9FECC2842962061500340DA2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8D7U583Z2W;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.wordcardUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = wordcard;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9FECC24E2962061300340DA2 /* Build configuration list for PBXProject "wordcard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9FECC27A2962061500340DA2 /* Debug */,
+				9FECC27B2962061500340DA2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9FECC27C2962061500340DA2 /* Build configuration list for PBXNativeTarget "wordcard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9FECC27D2962061500340DA2 /* Debug */,
+				9FECC27E2962061500340DA2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9FECC27F2962061500340DA2 /* Build configuration list for PBXNativeTarget "wordcardTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9FECC2802962061500340DA2 /* Debug */,
+				9FECC2812962061500340DA2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9FECC2822962061500340DA2 /* Build configuration list for PBXNativeTarget "wordcardUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9FECC2832962061500340DA2 /* Debug */,
+				9FECC2842962061500340DA2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		9FECC2612962061500340DA2 /* wordcard.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				9FECC2622962061500340DA2 /* wordcard.xcdatamodel */,
+			);
+			currentVersion = 9FECC2622962061500340DA2 /* wordcard.xcdatamodel */;
+			path = wordcard.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 9FECC24B2962061300340DA2 /* Project object */;
+}
