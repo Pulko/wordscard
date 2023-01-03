@@ -9,12 +9,12 @@ import SwiftUI
 
 @main
 struct wordcardApp: App {
-    let persistenceController = PersistenceController.shared
+  @StateObject private var mainViewModel = HomeViewModel()
 
-    var body: some Scene {
-        WindowGroup {
-            ContentView()
-                .environment(\.managedObjectContext, persistenceController.container.viewContext)
-        }
+  var body: some Scene {
+    WindowGroup {
+      HomeView()
+        .environmentObject(mainViewModel)
     }
+  }
 }

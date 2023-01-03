@@ -1,0 +1,78 @@
+{
+  "words": [{
+    "id": "1",
+    "word": "Guten Tag",
+    "translation": "Good day",
+    "info": "Guten tag means Good day or Good afternoon"
+  }, {
+    "id": "2",
+    "word": "Hallo",
+    "translation": "Hello",
+    "info": "A greeting in German"
+  }, {
+    "id": "3",
+    "word": "Auf Wiedersehen",
+    "translation": "Goodbye",
+    "info": "goodbye, until we see each other again"
+  }, {
+    "id": "4",
+    "word": "Bitte",
+    "translation": "Please",
+    "info": "used in polite requests or questions"
+  }, {
+    "id": "5",
+    "word": "Danke",
+    "translation": "Thanks",
+    "info": "An expression of gratitude"
+  }, {
+    "id": "6",
+    "word": "Entschuldigung",
+    "translation": "Sorry",
+    "info": "feeling regret or penitence"
+  }, {
+    "id": "7",
+    "word": "Gesundheit",
+    "translation": "Bless you",
+    "info": "Used after someone sneezes"
+  }, {
+    "id": "8",
+    "word": "",
+    "translation": "",
+    "info": ""
+  }, {
+    "id": "9",
+    "word": "Ja",
+    "translation": "Yes",
+    "info": "Posistive expression"
+  }, {
+    "id": "10",
+    "word": "Nein",
+    "translation": "No",
+    "info": "Negative Expression"
+  }, {
+    "id": "11",
+    "word": "Wer?",
+    "translation": "Who?",
+    "info": "We use the question word 'who' when we ask questions about a person"
+  }, {
+    "id": "12",
+    "word": "Was?",
+    "translation": "What?",
+    "info": "We use the question word 'what' when we ask questions about a thing"
+  }, {
+    "id": "13",
+    "word": "Warum?",
+    "translation": "Why?",
+    "info": "We use the question word 'why' when we ask questions about a reason"
+  }, {
+    "id": "14",
+    "word": "Dienstag",
+    "translation": "Tuesday",
+    "info": "The second day of the week"
+  }, {
+    "id": "15",
+    "word": "Freitag",
+    "translation": "Friday",
+    "info": "The fifth day of the week"
+  }]
+}
